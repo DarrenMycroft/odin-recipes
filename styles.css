@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #00ddff
 }
@@ -43,4 +46,11 @@ a {
     flex-direction: column;
     text-decoration: none;
     font-size: 24px;
+}
+
+/* recipe sub-folder */
+
+.ingredients, .instructions  {
+    display: flex;
+    flex-direction: row;
 }
