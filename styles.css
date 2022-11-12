@@ -14,6 +14,7 @@ h2 {
     font-size: 36px;
 }
 
+
 img {
     display: block;
     margin: 0 auto 0 auto;   
@@ -21,7 +22,7 @@ img {
     height: 350px;
 }
 
-ul {
+ul.index {
    display: flex;
    justify-content: center;
    list-style: none;
@@ -29,7 +30,7 @@ ul {
    
 }
 
-li {
+li.index {
     padding: 40px;
        
 }
